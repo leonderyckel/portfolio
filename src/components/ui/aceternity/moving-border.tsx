@@ -11,6 +11,7 @@ export const MovingBorder = ({
   containerClassName,
   borderRadius = "1.75rem",
   offset = 32,
+  borderColor = "from-purple-600 via-blue-500 to-purple-600",
 }: {
   children: React.ReactNode;
   duration?: number;
@@ -18,51 +19,43 @@ export const MovingBorder = ({
   containerClassName?: string;
   borderRadius?: string;
   offset?: number;
+  borderColor?: string;
 }) => {
   return (
     <div
       className={cn(
-        "relative p-[1px] overflow-hidden",
+        "relative p-[3px] overflow-hidden group",
         containerClassName
       )}
       style={{
         borderRadius: borderRadius,
       }}
     >
-      <div
-        className="absolute inset-0"
-        style={{
-          borderRadius: `calc(${borderRadius} * 0.96)`,
+      <motion.div
+        className={cn(
+          "absolute inset-0 rounded-[inherit] z-0 opacity-90 group-hover:opacity-100 blur-sm group-hover:blur-none transition-all duration-500",
+          `bg-gradient-to-r ${borderColor}`
+        )}
+        animate={{
+          backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
         }}
-      >
-        <div className="absolute inset-[-100%]">
-          <div className="absolute w-[50%] h-[200%] top-0 overflow-hidden">
-            <motion.div
-              initial={{ rotate: "0deg" }}
-              animate={{ rotate: "360deg" }}
-              transition={{
-                duration: duration / 1000,
-                repeat: Infinity,
-                ease: "linear",
-              }}
-              style={{
-                width: `calc(100% + ${offset}px)`,
-                height: `calc(100% + ${offset}px)`,
-                borderRadius: `calc(${borderRadius} * 0.96)`,
-              }}
-              className="absolute inset-0 bg-gradient-to-tr from-purple-600/90 via-blue-500/90 to-purple-600/90"
-            ></motion.div>
-          </div>
-        </div>
-      </div>
+        transition={{
+          duration: duration / 1000,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+        style={{
+          backgroundSize: "300% 300%",
+        }}
+      />
 
       <div
         className={cn(
-          "relative bg-white h-full w-full",
+          "relative bg-white dark:bg-slate-950 h-full w-full",
           className
         )}
         style={{
-          borderRadius: `calc(${borderRadius} * 0.96)`,
+          borderRadius: `calc(${borderRadius} * 0.95)`,
         }}
       >
         {children}
