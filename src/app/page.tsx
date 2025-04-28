@@ -26,12 +26,11 @@ export default function Home() {
   ];
 
   const skills = [
-    { title: "Développement Web", icon: "💻", link: "/competences#developpement" },
-    { title: "Communication", icon: "🗣️", link: "/competences#communication" },
-    { title: "Gestion de Projet", icon: "📊", link: "/competences#gestion" },
-    { title: "Design", icon: "🎨", link: "/competences#design" },
-    { title: "Informatique", icon: "🔧", link: "/competences#informatique" },
-    { title: "Langues", icon: "🌏", link: "/competences#langues" },
+    { title: "Montage d'un PC (10h)", icon: "🛠️", link: "/competences#montage-pc" },
+    { title: "Formation OpenClassrooms : Python (10h)", icon: "🐍", link: "/competences#python" },
+    { title: "Formation OpenClassrooms : (10h)", icon: "📚", link: "/competences#openclassrooms" },
+    { title: "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)", icon: "🇬🇧", link: "/competences#anglais-cape-town" },
+    { title: "Joueur de hockey (10h)", icon: "🏑", link: "/competences#hockey" },
   ];
 
   return (
@@ -82,3 +81,5 @@ export default function Home() {
     </div>
   );
 }
+
+'ok'
