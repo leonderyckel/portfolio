@@ -8,7 +8,7 @@ const navItems = [
   { name: "Compétences", path: "/competences" },
   { name: "Contact", path: "/contact" },
 ];
-
+'ok'
 export default function Navigation() {
   return (
     <header className="w-full py-6 border-b border-gray-200 bg-white">
@@ -28,10 +28,12 @@ export default function Navigation() {
           ))}
           <Link href="/contact">
             <MovingBorder
-              className="px-4 py-2 font-medium text-sm text-white"
+              className="px-8 py-3 font-medium bg-gradient-to-r from-slate-900 to-slate-800 text-center"
               borderRadius="0.5rem"
+              duration={3000}
+              borderColor="from-purple-600 via-blue-400 to-emerald-500"
             >
-              Contact
+              <span className="text-white font-semibold">Contact</span>
             </MovingBorder>
           </Link>
         </nav>
