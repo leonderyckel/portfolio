@@ -33,5 +33,18 @@ module.exports = {
       },
     },
   },
+  safelist: [
+    'bg-gradient-to-r',
+    'from-slate-900',
+    'to-slate-800',
+    'from-purple-600',
+    'via-blue-400',
+    'to-emerald-500',
+    'from-blue-400',
+    'via-blue-500',
+    'to-purple-600',
+    'text-white',
+    'dark:bg-slate-950',
+  ],
 }
 
