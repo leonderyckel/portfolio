@@ -6,9 +6,8 @@ const navItems = [
   { name: "CV", path: "/cv" },
   { name: "Projet", path: "/projet" },
   { name: "Compétences", path: "/competences" },
-  { name: "Contact", path: "/contact" },
 ];
-'ok'
+
 export default function Navigation() {
   return (
     <header className="w-full py-6 border-b border-gray-200 bg-white">

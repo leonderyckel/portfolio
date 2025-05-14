@@ -26,11 +26,11 @@ export default function Home() {
   ];
 
   const skills = [
-    { title: "Montage d'un PC (10h)", icon: "🛠️", link: "/competences#montage-pc" },
-    { title: "Formation OpenClassrooms : Python (10h)", icon: "🐍", link: "/competences#python" },
-    { title: "Formation OpenClassrooms : (10h)", icon: "📚", link: "/competences#openclassrooms" },
+    { title: "Montage d'un PC", icon: "🛠️", link: "/competences#montage-pc" },
+    { title: "Formation OpenClassrooms : Python", icon: "🐍", link: "/competences#python" },
+    { title: "Formation OpenClassrooms: React", icon: "📚", link: "/competences#openclassrooms" },
     { title: "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)", icon: "🇬🇧", link: "/competences#anglais-cape-town" },
-    { title: "Joueur de hockey (10h)", icon: "🏑", link: "/competences#hockey" },
+    { title: "Joueur de hockey", icon: "🏑", link: "/competences#hockey" },
   ];
 
   return (
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
       
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold mb-12 text-center gradient-title">Mes Domaines de Compétences</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center gradient-title">Compétences</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
@@ -81,5 +81,3 @@ export default function Home() {
     </div>
   );
 }
-
-'ok'

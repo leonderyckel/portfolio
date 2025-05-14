@@ -4,38 +4,39 @@ import { MovingBorder } from "@/components/ui/aceternity/moving-border";
 export default function ProjetPage() {
   const strengths = [
     {
-      title: "Expertise technique",
-      description: "Maîtrise des technologies web modernes et des frameworks comme React, Next.js et TypeScript.",
+      title: "Polyvalence",
+      description: "Mon parcours m'a permis de développer des compétences variées, allant du développement web au cloud en passant par les réseaux et la sécurité, ce qui est essentiel pour lancer une startup tech avec une vision full-stack.",
     },
     {
-      title: "Créativité",
-      description: "Capacité à proposer des solutions innovantes et à penser en dehors des conventions établies.",
+      title: "Vision sur mon avenir professionnel",
+      description: "Je sais où je veux aller, avec des objectifs précis à court et long terme, ce qui me permet d'orienter mes choix de formation, de stage et de projets dans une direction stratégique.",
     },
     {
-      title: "Adaptabilité",
-      description: "Facilité à m'adapter à de nouveaux environnements, technologies et méthodes de travail.",
+      title: "Capacité à concrétiser des projets en réels",
+      description: "Le fait de travailler sur une application concrète durant mon stage et mon TFE me permet de confronter mes idées à la réalité du terrain, de m'adapter aux besoins et d'améliorer mes compétences en continu.",
     },
     {
-      title: "Travail d'équipe",
-      description: "Excellentes compétences de communication et de collaboration au sein d'une équipe pluridisciplinaire.",
+      title: "Goût de l'apprentissage continu et de l'innovation",
+      description: "Je cherche constamment à me former sur de nouvelles technologies et à rester à jour, ce qui est essentiel dans un secteur en évolution constante.",
     },
   ];
 
   const weaknesses = [
     {
-      title: "Perfectionnisme",
-      description: "Tendance à consacrer trop de temps à peaufiner des détails, parfois au détriment de l'efficacité.",
-      improvement: "Je travaille sur la priorisation des tâches et l'acceptation de l'itération progressive.",
+      title: "Gagner en expérience en gestion d'équipe",
+      description: "Apprendre à organiser et diriger un groupe de travail pour des projets plus ambitieux.",
     },
     {
-      title: "Impatience",
-      description: "Difficulté à gérer les situations où le progrès est lent ou où je dépends du travail des autres.",
-      improvement: "J'améliore ma gestion du stress et ma planification pour mieux anticiper les délais.",
+      title: "Mieux comprendre le côté business",
+      description: "Me former au marketing, à la stratégie commerciale et à la gestion d'entreprise pour bien lancer un produit.",
     },
     {
-      title: "Difficulté à déléguer",
-      description: "Préférence pour accomplir les tâches moi-même plutôt que de les déléguer.",
-      improvement: "J'apprends à faire confiance aux autres et à déléguer efficacement.",
+      title: "Améliorer ma communication professionnelle",
+      description: "Être plus à l'aise pour expliquer mes idées, que ce soit à l'écrit ou à l'oral, surtout avec des personnes non techniques.",
+    },
+    {
+      title: "Travailler sur ma visibilité pro",
+      description: "Développer mon réseau (LinkedIn, GitHub, conférences…) pour mieux me faire connaître.",
     },
   ];
 
@@ -45,7 +46,25 @@ export default function ProjetPage() {
       
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-2 text-center">Mon Projet Professionnel</h1>
-        <p className="text-xl text-center mb-16 text-foreground/80">Vision, objectifs et analyse</p>
+        <p className="text-xl text-center mb-16 text-foreground/80">Mon parcours, mes ambitions et ma stratégie</p>
+        
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 text-primary text-center">Mon Parcours et Mes Ambitions</h2>
+          <div className="bg-background/50 p-8 rounded-xl border border-foreground/10 max-w-4xl mx-auto space-y-6">
+            <p className="text-lg">
+              Je m'appelle Léon de Ryckel, étudiant en IT passionné par la création de solutions numériques utiles, fiables et sécurisées. Mon objectif professionnel est clair : créer ma propre entreprise et devenir indépendant, en développant des logiciels sur mesure et en proposant des services spécialisés dans la sécurisation du stockage de données.
+            </p>
+            <p className="text-lg">
+              Mon parcours m'a permis d'acquérir une vision complète des systèmes informatiques, depuis le développement web et backend jusqu'à l'infrastructure réseau et au cloud computing. Aujourd'hui, je souhaite mettre ces compétences au service d'un projet entrepreneurial solide, avec un fort accent sur la qualité, la sécurité des données, et la valeur ajoutée pour les utilisateurs.
+            </p>
+            <p className="text-lg">
+              Actuellement, je réalise un stage en Afrique du Sud au sein d'une entreprise tech locale, dans laquelle je développe une application web répondant à des besoins concrets du marché. Ce projet fait également l'objet de mon Travail de Fin d'Études (TFE), ce qui me permet de pousser l'approche encore plus loin, tant sur le plan technique que stratégique.
+            </p>
+            <p className="text-lg">
+              À moyen terme, je souhaite continuer à collaborer avec des entreprises ou clients en tant qu'indépendant, tout en faisant grandir ma structure. J'aspire à créer des produits fiables, durables, sécurisés, en particulier dans des contextes où la demande est forte mais les solutions actuelles encore limitées.
+            </p>
+          </div>
+        </section>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <section>
@@ -76,10 +95,10 @@ export default function ProjetPage() {
               
               <h3 className="text-xl font-bold mb-4">Long terme (3-5 ans)</h3>
               <ul className="list-disc list-inside space-y-2">
-                <li>Occuper un poste de lead developer ou architecte logiciel</li>
+                
                 <li>Développer une expertise dans une technologie émergente (IA, IoT, Blockchain)</li>
                 <li>Créer un produit numérique innovant ou une startup tech</li>
-                <li>Devenir un mentor reconnu dans la communauté du développement web</li>
+                
               </ul>
             </div>
           </section>
@@ -110,10 +129,6 @@ export default function ProjetPage() {
                     <div key={index}>
                       <h4 className="text-lg font-bold text-accent mb-2">{item.title}</h4>
                       <p className="text-foreground/80 mb-2">{item.description}</p>
-                      <p className="text-primary/80 italic">
-                        <span className="font-medium">Comment je m'améliore: </span>
-                        {item.improvement}
-                      </p>
                     </div>
                   ))}
                 </div>
@@ -134,17 +149,14 @@ export default function ProjetPage() {
                 <span className="font-bold">Formation continue: </span>
                 Consacrer au moins 5 heures par semaine à l'apprentissage de nouvelles technologies et à l'approfondissement de mes connaissances existantes.
               </li>
-              <li>
-                <span className="font-bold">Projets personnels: </span>
-                Développer des projets personnels innovants qui me permettent d'explorer de nouvelles technologies et de créer un portfolio solide.
-              </li>
+              
               <li>
                 <span className="font-bold">Networking: </span>
-                Participer activement à des meetups, conférences et communautés en ligne pour développer mon réseau professionnel.
+                Participer activement à des réunions,conférences,évènements pour développer mon réseau professionnel.
               </li>
               <li>
-                <span className="font-bold">Mentorat: </span>
-                Chercher des mentors expérimentés pour m'accompagner dans mon parcours et devenir moi-même mentor pour consolider mes connaissances.
+                <span className="font-bold">Experience: </span>
+                Chercher des personnes expérimentés pour m'accompagner dans mon parcours et avoir une vision plus concrète de mes objectifs.
               </li>
               <li>
                 <span className="font-bold">Veille technologique: </span>
