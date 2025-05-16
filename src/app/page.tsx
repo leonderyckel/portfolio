@@ -28,9 +28,10 @@ export default function Home() {
   const skills = [
     { title: "Montage d'un PC", icon: "🛠️", link: "/competences#montage-pc" },
     { title: "Formation OpenClassrooms : Python", icon: "🐍", link: "/competences#python" },
-    { title: "Formation OpenClassrooms: React", icon: "📚", link: "/competences#openclassrooms" },
+    { title: "Formation OpenClassrooms: React", icon: "📚", link: "/competences#react" },
     { title: "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)", icon: "🇬🇧", link: "/competences#anglais-cape-town" },
     { title: "Joueur de hockey", icon: "🏑", link: "/competences#hockey" },
+    { title: "Conférences en ligne sur l'IA et RGPD", icon: "📚", link: "/competences#conferences-ia-rgpd" },
   ];
 
   return (

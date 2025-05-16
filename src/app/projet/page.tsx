@@ -1,174 +1,101 @@
 import Navigation from "@/components/navigation";
-import { MovingBorder } from "@/components/ui/aceternity/moving-border";
+// MovingBorder is not used in this new structure
+// import { MovingBorder } from "@/components/ui/aceternity/moving-border";
 
 export default function ProjetPage() {
-  const strengths = [
-    {
-      title: "Polyvalence",
-      description: "Mon parcours m'a permis de développer des compétences variées, allant du développement web au cloud en passant par les réseaux et la sécurité, ce qui est essentiel pour lancer une startup tech avec une vision full-stack.",
-    },
-    {
-      title: "Vision sur mon avenir professionnel",
-      description: "Je sais où je veux aller, avec des objectifs précis à court et long terme, ce qui me permet d'orienter mes choix de formation, de stage et de projets dans une direction stratégique.",
-    },
-    {
-      title: "Capacité à concrétiser des projets en réels",
-      description: "Le fait de travailler sur une application concrète durant mon stage et mon TFE me permet de confronter mes idées à la réalité du terrain, de m'adapter aux besoins et d'améliorer mes compétences en continu.",
-    },
-    {
-      title: "Goût de l'apprentissage continu et de l'innovation",
-      description: "Je cherche constamment à me former sur de nouvelles technologies et à rester à jour, ce qui est essentiel dans un secteur en évolution constante.",
-    },
-  ];
-
-  const weaknesses = [
-    {
-      title: "Gagner en expérience en gestion d'équipe",
-      description: "Apprendre à organiser et diriger un groupe de travail pour des projets plus ambitieux.",
-    },
-    {
-      title: "Mieux comprendre le côté business",
-      description: "Me former au marketing, à la stratégie commerciale et à la gestion d'entreprise pour bien lancer un produit.",
-    },
-    {
-      title: "Améliorer ma communication professionnelle",
-      description: "Être plus à l'aise pour expliquer mes idées, que ce soit à l'écrit ou à l'oral, surtout avec des personnes non techniques.",
-    },
-    {
-      title: "Travailler sur ma visibilité pro",
-      description: "Développer mon réseau (LinkedIn, GitHub, conférences…) pour mieux me faire connaître.",
-    },
-  ];
+  // strengths and weaknesses arrays are not needed as the content is narrative within sections
 
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
       
       <div className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-2 text-center">Mon Projet Professionnel</h1>
-        <p className="text-xl text-center mb-16 text-foreground/80">Mon parcours, mes ambitions et ma stratégie</p>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center">Mon Projet Professionnel</h1>
         
-        <section className="mb-16">
+        {/* Introductory paragraph */}
+        <div className="max-w-4xl mx-auto mb-12">
+          <p className="text-lg text-center text-foreground/80">
+            Je m'appelle Léon de Ryckel, étudiant en informatique à l'EPHEC, j'aimerais travaiiler dans développement de solutions numériques sécurisées et performantes. Mon projet professionnel est clair : m'établir à Cape Town, en Afrique du Sud, pour y créer ma propre entreprise ou travailler comme indépendant, en concevant des applications web et des services IT sur mesure, avec un focus sur la sécurité des données et la satisfaction des utilisateurs. Voici mon parcours, mes ambitions, et la stratégie que je mets en place pour atteindre ces objectifs.
+          </p>
+        </div>
+
+        {/* Section: Mon Parcours et Mes Ambitions */}
+        <section className="mb-12">
           <h2 className="text-3xl font-bold mb-8 text-primary text-center">Mon Parcours et Mes Ambitions</h2>
           <div className="bg-background/50 p-8 rounded-xl border border-foreground/10 max-w-4xl mx-auto space-y-6">
             <p className="text-lg">
-              Je m'appelle Léon de Ryckel, étudiant en IT passionné par la création de solutions numériques utiles, fiables et sécurisées. Mon objectif professionnel est clair : créer ma propre entreprise et devenir indépendant, en développant des logiciels sur mesure et en proposant des services spécialisés dans la sécurisation du stockage de données.
+              Je trouve que mon parcours à l'EPHEC m'a permis de construire une base solide dans un peu tous les domaines de l'informatique. Je pense avoir acquis des compétences variées : développement web (front-end et back-end), réseaux, serveurs, cloud computing, et hardware. Ces connaissances me donnent une vision globale des systèmes IT, essentielle pour mes projets futurs.
             </p>
             <p className="text-lg">
-              Mon parcours m'a permis d'acquérir une vision complète des systèmes informatiques, depuis le développement web et backend jusqu'à l'infrastructure réseau et au cloud computing. Aujourd'hui, je souhaite mettre ces compétences au service d'un projet entrepreneurial solide, avec un fort accent sur la qualité, la sécurité des données, et la valeur ajoutée pour les utilisateurs.
+              Actuellement, je réalise un stage chez Bitrix IT, une entreprise informatique à Cape Town, où je mets mes compétences à l'épreuve dans un contexte professionnel B2B. Sur le terrain, j'accompagne M. Philip Theunissen pour des dépannages chez des clients : résolution de problèmes dans une base de données pour une clinique, installation de routeurs Cisco et switches intelligents, réparation d'écrans ou de disques durs défectueux, mise à jour de systèmes d'exploitation, configuration d'imprimantes réseau, et résolution de soucis DNS ou DHCP. Ces missions, variées et souvent urgentes, m'ont appris à allier rigueur technique et communication avec les clients.
             </p>
             <p className="text-lg">
-              Actuellement, je réalise un stage en Afrique du Sud au sein d'une entreprise tech locale, dans laquelle je développe une application web répondant à des besoins concrets du marché. Ce projet fait également l'objet de mon Travail de Fin d'Études (TFE), ce qui me permet de pousser l'approche encore plus loin, tant sur le plan technique que stratégique.
+              En parallèle, je développe une application web pour mon travail de fin d'études (TFE), qui sert également Bitrix IT. Cet outil de gestion de tickets inclut un agenda automatisé, un module de facturation, un stockage sécurisé des mots de passe, des accès à distance, et des schémas réseau interactifs pour optimiser la gestion des interventions clients. Ce projet me permet de combiner mes compétences techniques avec une réflexion stratégique sur les besoins d'une entreprise, tout en laissant une contribution concrète à l'équipe.
             </p>
             <p className="text-lg">
-              À moyen terme, je souhaite continuer à collaborer avec des entreprises ou clients en tant qu'indépendant, tout en faisant grandir ma structure. J'aspire à créer des produits fiables, durables, sécurisés, en particulier dans des contextes où la demande est forte mais les solutions actuelles encore limitées.
+              Mon ambition est de devenir un développeur full-stack expert, capable de créer des applications web complètes, de l'interface utilisateur à l'infrastructure back-end. À moyen terme, je souhaite travailler comme indépendant à Cape Town, en collaborant avec des entreprises locales comme Bitrix IT. À long terme, je vise à lancer ma propre startup, spécialisée dans des solutions numériques sécurisées et innovantes, dans un marché où la demande pour des outils fiables est forte.
             </p>
           </div>
         </section>
-        
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-          <section>
-            <h2 className="text-2xl font-bold mb-6 text-primary">Vision Professionnelle</h2>
-            <div className="bg-background/50 p-8 rounded-xl border border-foreground/10">
-              <p className="mb-4">
-                Mon objectif professionnel est de devenir un développeur web full-stack expert, spécialisé dans la création d'applications web performantes et accessibles qui résolvent des problèmes concrets pour les utilisateurs.
-              </p>
-              <p className="mb-4">
-                Je souhaite combiner ma passion pour le développement front-end avec une expertise croissante en back-end pour créer des solutions complètes. À terme, j'aspire à diriger une équipe de développement au sein d'une entreprise innovante ou à lancer ma propre startup technologique.
-              </p>
-              <p>
-                Mon parcours professionnel est guidé par un désir constant d'apprentissage et d'amélioration, ainsi que par la volonté de contribuer à des projets qui ont un impact positif sur la société.
-              </p>
-            </div>
-          </section>
-          
-          <section>
-            <h2 className="text-2xl font-bold mb-6 text-primary">Objectifs à Court et Long Terme</h2>
-            <div className="bg-background/50 p-8 rounded-xl border border-foreground/10">
-              <h3 className="text-xl font-bold mb-4">Court terme (1-2 ans)</h3>
-              <ul className="list-disc list-inside space-y-2 mb-6">
-                <li>Approfondir mes connaissances en architecture logicielle et développement backend</li>
-                <li>Obtenir une certification en développement cloud (AWS ou Azure)</li>
-                <li>Contribuer à des projets open source pour élargir mon réseau professionnel</li>
-                <li>Donner une conférence technique sur un sujet spécialisé</li>
-              </ul>
-              
-              <h3 className="text-xl font-bold mb-4">Long terme (3-5 ans)</h3>
-              <ul className="list-disc list-inside space-y-2">
-                
-                <li>Développer une expertise dans une technologie émergente (IA, IoT, Blockchain)</li>
-                <li>Créer un produit numérique innovant ou une startup tech</li>
-                
-              </ul>
-            </div>
-          </section>
-        </div>
-        
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-primary text-center">Analyse Personnelle</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <section>
-              <MovingBorder className="p-8">
-                <h3 className="text-xl font-bold mb-6 text-center">Mes Points Forts</h3>
-                <div className="space-y-6">
-                  {strengths.map((item, index) => (
-                    <div key={index}>
-                      <h4 className="text-lg font-bold text-secondary mb-2">{item.title}</h4>
-                      <p className="text-foreground/80">{item.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </MovingBorder>
-            </section>
-            
-            <section>
-              <MovingBorder className="p-8">
-                <h3 className="text-xl font-bold mb-6 text-center">Mes Points à Améliorer</h3>
-                <div className="space-y-6">
-                  {weaknesses.map((item, index) => (
-                    <div key={index}>
-                      <h4 className="text-lg font-bold text-accent mb-2">{item.title}</h4>
-                      <p className="text-foreground/80 mb-2">{item.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </MovingBorder>
-            </section>
+
+       
+
+        {/* Section: Mes objectifs à court et long terme */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-8 text-primary text-center">Mes Objectifs à Court et Long Terme</h2>
+          <div className="bg-background/50 p-8 rounded-xl border border-foreground/10 max-w-4xl mx-auto space-y-6">
+            <h3 className="text-2xl font-semibold mb-4 text-secondary">Court terme (1-2 ans)</h3>
+            <ul className="list-disc list-inside space-y-2 text-lg">
+              <li>Finaliser mon TFE avec une application fonctionnelle, adoptée par Bitrix IT, pour démontrer mes compétences.</li>
+              <li>Approfondir mes connaissances en développement back-end et obtenir une certification cloud.</li>
+              <li>Contribuer à un projet open source et élargir mon réseau.</li>
+              <li>Commercialiser un projet informatique </li>
+            </ul>
+            <h3 className="text-2xl font-semibold mt-8 mb-4 text-secondary">Long terme (3-5 ans)</h3>
+            <ul className="list-disc list-inside space-y-2 text-lg">
+              <li>Devenir expert dans une technologie émergente, comme l'IA pour des applications personnalisées ou la blockchain.</li>
+              <li>Lancer un produit numérique innovant, comme une solution  pour les entreprises B2B.</li>
+              <li>M'installer définitivement à Cape Town, avec un réseau professionnel solide et une carrière établie comme indépendant.</li>
+            </ul>
           </div>
-        </div>
-        
+        </section>
+
+        {/* Section: Analyse personnelle */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-8 text-primary text-center">Analyse Personnelle</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-background/50 p-8 rounded-xl border border-foreground/10">
+              <h3 className="text-2xl font-semibold mb-6 text-secondary text-center">Mes Points Forts</h3>
+              <ul className="list-disc list-inside space-y-3 text-lg">
+                <li><span className="font-medium">Polyvalence :</span> Mes compétences me permettentde comprendre différents secteur de l'informatique avec une vision globale.</li>
+                <li><span className="font-medium">Clarté d'objectif :</span> Je sais que je veux m'installer à Cape Town et créer une entreprise, ce qui guide mes choix de formation et de projets.</li>
+                <li><span className="font-medium">Curiosité technique :</span> Je me forme constamment sur de nouvelles technologies, ce qui est crucial dans un domaine qui évolue vite.</li>
+              </ul>
+            </div>
+            <div className="bg-background/50 p-8 rounded-xl border border-foreground/10">
+              <h3 className="text-2xl font-semibold mb-6 text-accent text-center">Mes Points à Améliorer</h3>
+              <ul className="list-disc list-inside space-y-3 text-lg">
+                <li><span className="font-medium">Compétences business :</span> Je dois me former au marketing et à la stratégie pour réussir à commercialiser un produit car je n'ai pas de compétences dans ce domaine.</li>
+                <li><span className="font-medium">Communication professionnelle :</span> Je veux ameliorer ma communication dans le milieu professionnel surtout avec des personnes sans compétences informatiques pour expliquer mes idées.</li>
+                <li><span className="font-medium">Visibilité :</span> Mon réseau et ma présence en ligne (GitHub, LinkedIn) sont encore limités ; je dois plus me faire connaître.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Section: Ma stratégie de développement professionnel */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-primary">Stratégie de Développement Professionnel</h2>
-          <div className="bg-background/50 p-8 rounded-xl border border-foreground/10">
-            <p className="mb-4">
-              Pour atteindre mes objectifs, j'ai établi une stratégie de développement professionnel structurée autour de plusieurs piliers:
-            </p>
-            
-            <ol className="list-decimal list-inside space-y-4 mb-4">
-              <li>
-                <span className="font-bold">Formation continue: </span>
-                Consacrer au moins 5 heures par semaine à l'apprentissage de nouvelles technologies et à l'approfondissement de mes connaissances existantes.
-              </li>
-              
-              <li>
-                <span className="font-bold">Networking: </span>
-                Participer activement à des réunions,conférences,évènements pour développer mon réseau professionnel.
-              </li>
-              <li>
-                <span className="font-bold">Experience: </span>
-                Chercher des personnes expérimentés pour m'accompagner dans mon parcours et avoir une vision plus concrète de mes objectifs.
-              </li>
-              <li>
-                <span className="font-bold">Veille technologique: </span>
-                Maintenir une veille constante sur les tendances et innovations du secteur technologique.
-              </li>
+          <h2 className="text-3xl font-bold mb-8 text-primary text-center">Ma Stratégie de Développement Professionnel</h2>
+          <div className="bg-background/50 p-8 rounded-xl border border-foreground/10 max-w-4xl mx-auto space-y-6">
+          
+            <ol className="list-decimal list-inside space-y-3 text-lg">
+              <li><span className="font-medium">Formation continue :</span> consacrer 5 à 10 heures par semaine à l'apprentissage, que ce soit via des cours en ligne  des projets perso, ou des certifications. Actuellement, par exemple sur le back-end et le cloud.</li>
+              <li><span className="font-medium">Expérience pratique :</span> Après l'EPHEC, je chercherai des missions freelance pour diversifier mes projets et financer mes futurs projets. Mon stage est un tremplin, mais je veux multiplier les expériences concrètes.</li>
+              <li><span className="font-medium">Veille technologique :</span> Je suis des blogs (comme Dev.to), des posts sur les tendances tech, et je teste de nouveaux outils pour rester à jour. Cela m'aide à anticiper les besoins du marché.</li>
             </ol>
-            
-            <p>
-              Cette approche structurée, combinée à une analyse régulière de mes progrès et à des ajustements stratégiques, me permettra de progresser efficacement vers la réalisation de mon projet professionnel.
-            </p>
           </div>
         </section>
+
       </div>
     </div>
   );
