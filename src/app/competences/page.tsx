@@ -18,7 +18,16 @@ const activities = [
     proof: "Photo du montage",
     proofLink: "#",
     description: "Montage complet d'un ordinateur de bureau, choix des composants, assemblage, installation du système et tests.",
-    reflection: "Ce projet m'a permis de mieux comprendre l'architecture matérielle d'un ordinateur et d'acquérir des compétences pratiques en hardware.",
+    reflection: `
+**Contexte :**
+L'objectif était de monter deux ordinateurs personnels de A à Z, afin de mieux maîtriser les aspects matériels et la configuration d'un système informatique complet. Cela répondait aussi à un besoin concret de mon entourage.
+
+**Actions réalisées :**
+J'ai sélectionné l'ensemble des composants (processeur, carte mère, mémoire, stockage, alimentation, boîtier) en veillant à leur compatibilité et au budget. Ensuite, j'ai procédé à l'assemblage physique des machines, à l'installation des systèmes d'exploitation (Windows et Linux) et des pilotes, puis j'ai effectué des tests de fonctionnement et de performance.
+
+**Apport :**
+Cette expérience m'a permis d'acquérir une connaissance pratique des composants d'un ordinateur et de leur interaction. J'ai développé des compétences en assemblage, en installation de système et en diagnostic de base. C'est utile pour comprendre les prérequis matériels des logiciels et pour avoir une meilleure autonomie en cas de problème technique.
+`,
   },
   {
     title: "Formation OpenClassrooms : Python",
@@ -29,7 +38,16 @@ const activities = [
     proof: "Certificat OpenClassrooms",
     proofLink: "#",
     description: "Formation de 10 heures sur les bases de Python, incluant la syntaxe, les structures de données et l'automatisation de tâches simples.",
-    reflection: "Cette formation m'a permis de découvrir un nouveau langage et d'élargir mes compétences en programmation.",
+    reflection: `
+**Contexte :**
+J'ai suivi cette formation pour acquérir les bases du langage Python, très répandu dans de nombreux domaines du développement (web, scripts, data science).
+
+**Actions réalisées :**
+La formation couvrait la syntaxe de Python, les structures de données fondamentales (listes, dictionnaires), les boucles, les conditions, et les fonctions. J'ai réalisé des exercices pratiques pour mettre en application ces concepts, notamment en créant de petits scripts.
+
+**Apport :**
+Cela m'a donné une première compréhension solide de Python et de sa logique. Je peux désormais lire et comprendre du code Python simple, et écrire des scripts pour des tâches d'automatisation basiques. C'est une compétence de base importante pour un futur développeur.
+`,
   },
   {
     title: "Formation OpenClassrooms : React",
@@ -40,7 +58,16 @@ const activities = [
     proof: "Certificat et projets React",
     proofLink: "#",
     description: "Formation approfondie sur React, incluant les hooks, le state management, et l'écosystème React.",
-    reflection: "L'apprentissage de React a ouvert de nouvelles perspectives pour la création d'interfaces utilisateur dynamiques.",
+    reflection: `
+**Contexte :**
+L'objectif était d'apprendre à utiliser React, une bibliothèque JavaScript populaire pour construire des interfaces utilisateur dynamiques et modernes pour des applications web.
+
+**Actions réalisées :**
+J'ai étudié les concepts clés de React : composants, JSX, props, state, et le cycle de vie des composants. La formation abordait également les hooks (comme useState, useEffect), React Router pour la navigation, et des bases sur la gestion d'état.
+
+**Apport :**
+J'ai acquis les bases pour développer des interfaces utilisateur interactives avec React. Je comprends comment structurer une application en composants réutilisables et gérer les données au sein de l'interface. C'est une compétence demandée pour le développement front-end.
+`,
   },
   {
     title: "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)",
@@ -51,7 +78,16 @@ const activities = [
     proof: "Attestation de l'école de langue",
     proofLink: "#",
     description: "Cours d'anglais intensif à Cape Town, Afrique du Sud, pendant 2 semaines en février 2023.",
-    reflection: "Cette expérience immersive m'a permis de progresser rapidement en anglais et de découvrir une nouvelle culture.",
+    reflection: `
+**Contexte :**
+Ce séjour visait à améliorer mon niveau d'anglais général, en particulier ma fluidité à l'oral, par une immersion dans un environnement anglophone.
+
+**Actions réalisées :**
+J'ai suivi des cours d'anglais intensifs en école de langue, axés sur la conversation, la grammaire et la compréhension. J'ai également pratiqué l'anglais au quotidien lors de mon séjour sur place.
+
+**Apport :**
+Mon aisance à l'oral en anglais s'est améliorée, ainsi que ma compréhension. J'ai gagné en confiance pour communiquer en anglais dans des situations variées. C'est une compétence essentielle dans le monde professionnel, notamment dans le secteur technologique.
+`,
   },
   {
     title: "Joueur de hockey",
@@ -62,7 +98,16 @@ const activities = [
     proof: "Photo ou attestation de club",
     proofLink: "#",
     description: "Participation régulière à des entraînements et matchs de hockey sur gazon en club.",
-    reflection: "Le hockey m'a appris l'esprit d'équipe, la persévérance et la gestion de l'effort sur la durée.",
+    reflection: `
+**Contexte :**
+La pratique régulière du hockey en club est une activité sportive et sociale.
+
+**Actions réalisées :**
+Participation aux entraînements hebdomadaires et aux matchs de championnat durant la saison.
+
+**Apport :**
+Au-delà de l'aspect physique, le hockey développe l'esprit d'équipe, la discipline et la persévérance. Ce sont des qualités utiles dans un contexte professionnel, notamment pour la collaboration sur des projets.
+`,
   },
   {
     title: "Conférences en ligne sur l'IA et RGPD",
@@ -73,7 +118,16 @@ const activities = [
     proof: "Captures d'écran de l'historique",
     proofLink: "#",
     description: "Participation à 11 webinaires sur des sujets variés liés à l'Intelligence Artificielle et au RGPD, chacun d'une durée approximative d'une heure.",
-    reflection: "Ces conférences ont enrichi ma compréhension des enjeux actuels de l'IA et de la protection des données.",
+    reflection: `
+**Contexte :**
+J'ai assisté à ces webinaires pour me tenir informé des évolutions et des enjeux concernant l'Intelligence Artificielle et le Règlement Général sur la Protection des Données.
+
+**Actions réalisées :**
+Suivi de 11 présentations en ligne par des experts, couvrant divers aspects de l'IA (applications, éthique) et du RGPD (obligations, droits des utilisateurs).
+
+**Apport :**
+Cela m'a permis d'actualiser mes connaissances sur deux sujets importants du numérique. J'ai une meilleure compréhension des implications de l'IA et des principes clés du RGPD, ce qui est pertinent pour développer des applications respectueuses des utilisateurs et de la réglementation.
+`,
   },
 ];
 
