@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Portfolio Professionnel",
-  description: "Portfolio professionnel présentant mon CV, mon projet professionnel et mes compétences",
+  title: "Professional Portfolio",
+  description: "Professional portfolio showcasing my CV, professional project and skills",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body className={`${inter.variable} font-sans antialiased`}>
         <main className="min-h-screen">
           {children}

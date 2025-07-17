@@ -8,17 +8,17 @@ import Link from "next/link";
 export default function Home() {
   const words = [
     {
-      text: "Bonjour,",
+      text: "Hello,",
       
     },
     {
-      text: "bienvenue",
+      text: "welcome",
     },
     {
-      text: "sur"
+      text: "to"
     },
     {
-      text: "mon",
+      text: "my",
     },
     {
       text: "Portfolio",
@@ -26,12 +26,12 @@ export default function Home() {
   ];
 
   const skills = [
-    { title: "Montage d'un PC", icon: "🛠️", link: "/competences#montage-pc" },
-    { title: "Formation OpenClassrooms : Python", icon: "🐍", link: "/competences#python" },
-    { title: "Formation OpenClassrooms: React", icon: "📚", link: "/competences#react" },
-    { title: "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)", icon: "🇬🇧", link: "/competences#anglais-cape-town" },
-    { title: "Joueur de hockey", icon: "🏑", link: "/competences#hockey" },
-    { title: "Conférences en ligne sur l'IA et RGPD", icon: "📚", link: "/competences#conferences-ia-rgpd" },
+    { title: "PC Building", icon: "🛠️", link: "/competences#montage-pc" },
+    { title: "OpenClassrooms Training: Python", icon: "🐍", link: "/competences#python" },
+    { title: "OpenClassrooms Training: React", icon: "📚", link: "/competences#react" },
+    { title: "English Course Abroad (Cape Town, 2 weeks, February 2023)", icon: "🇬🇧", link: "/competences#anglais-cape-town" },
+    { title: "Hockey Player", icon: "🏑", link: "/competences#hockey" },
+    { title: "Online Conferences on AI and GDPR", icon: "📚", link: "/competences#conferences-ia-rgpd" },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           
           <p className="text-lg md:text-xl max-w-3xl mb-10 text-gray-600">
-            Découvrez mon parcours professionnel, mes projets, et mon analyse réflexive sur mes compétences et expériences.
+            Discover my professional journey, my projects, and my reflective analysis of my skills and experiences.
           </p>
           
           <div className="flex gap-4">
@@ -53,20 +53,20 @@ export default function Home() {
               href="/cv" 
               className="px-6 py-3 rounded-md bg-purple-500 text-white hover:bg-purple-600 transition-colors"
             >
-              Voir mon CV
+              View my CV
             </Link>
             <Link 
               href="/projet" 
               className="px-6 py-3 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors"
             >
-              Mon Projet Pro
+              My Professional Project
             </Link>
           </div>
         </div>
       </section>
       
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold mb-12 text-center gradient-title">Compétences</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center gradient-title">Skills</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {skills.map((skill, index) => (

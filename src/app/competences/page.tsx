@@ -10,123 +10,123 @@ import "yet-another-react-lightbox/styles.css";
 
 const activities = [
   {
-    title: "Montage de deux PC",
+    title: "Building Two PCs",
     realHours: 15,
     countedHours: 10,
-    type: "Projet personnel",
+    type: "Personal Project",
     icon: "🛠️",
-    proof: "Photo du montage",
+    proof: "Assembly photos",
     proofLink: "#",
-    description: "Montage complet d'un ordinateur de bureau, choix des composants, assemblage, installation du système et tests.",
+    description: "Complete assembly of a desktop computer, component selection, assembly, system installation and testing.",
     reflection: `
-**Contexte :**
-L'objectif était de monter deux ordinateurs personnels de A à Z, afin de mieux maîtriser les aspects matériels et la configuration d'un système informatique complet. Cela répondait aussi à un besoin concret de mon entourage.
+**Context:**
+The objective was to build two personal computers from A to Z, in order to better master the hardware aspects and configuration of a complete computer system. This also met a concrete need of my entourage.
 
-**Actions réalisées :**
-J'ai sélectionné l'ensemble des composants (processeur, carte mère, mémoire, stockage, alimentation, boîtier) en veillant à leur compatibilité et au budget. Ensuite, j'ai procédé à l'assemblage physique des machines, à l'installation des systèmes d'exploitation (Windows et Linux) et des pilotes, puis j'ai effectué des tests de fonctionnement et de performance.
+**Actions performed:**
+I selected all the components (processor, motherboard, memory, storage, power supply, case) ensuring their compatibility and budget. Then, I proceeded with the physical assembly of the machines, installation of operating systems (Windows and Linux) and drivers, then performed functionality and performance tests.
 
-**Apport :**
-Cette expérience m'a permis d'acquérir une connaissance pratique des composants d'un ordinateur et de leur interaction. J'ai développé des compétences en assemblage, en installation de système et en diagnostic de base. C'est utile pour comprendre les prérequis matériels des logiciels et pour avoir une meilleure autonomie en cas de problème technique.
+**Contribution:**
+This experience allowed me to acquire practical knowledge of computer components and their interaction. I developed skills in assembly, system installation and basic diagnostics. This is useful for understanding software hardware requirements and for having better autonomy in case of technical problems.
 `,
   },
   {
-    title: "Formation OpenClassrooms : Python",
+    title: "OpenClassrooms Training: Python",
     realHours: 12,
     countedHours: 10,
-    type: "Formation en ligne",
+    type: "Online Training",
     icon: "🐍",
-    proof: "Certificat OpenClassrooms",
+    proof: "OpenClassrooms Certificate",
     proofLink: "#",
-    description: "Formation de 10 heures sur les bases de Python, incluant la syntaxe, les structures de données et l'automatisation de tâches simples.",
+    description: "10-hour training on Python basics, including syntax, data structures and simple task automation.",
     reflection: `
-**Contexte :**
-J'ai suivi cette formation pour acquérir les bases du langage Python, très répandu dans de nombreux domaines du développement (web, scripts, data science).
+**Context:**
+I took this training to acquire the basics of the Python language, widely used in many development fields (web, scripts, data science).
 
-**Actions réalisées :**
-La formation couvrait la syntaxe de Python, les structures de données fondamentales (listes, dictionnaires), les boucles, les conditions, et les fonctions. J'ai réalisé des exercices pratiques pour mettre en application ces concepts, notamment en créant de petits scripts.
+**Actions performed:**
+The training covered Python syntax, fundamental data structures (lists, dictionaries), loops, conditions, and functions. I completed practical exercises to apply these concepts, notably by creating small scripts.
 
-**Apport :**
-Cela m'a donné une première compréhension solide de Python et de sa logique. Je peux désormais lire et comprendre du code Python simple, et écrire des scripts pour des tâches d'automatisation basiques. C'est une compétence de base importante pour un futur développeur.
+**Contribution:**
+This gave me a solid first understanding of Python and its logic. I can now read and understand simple Python code, and write scripts for basic automation tasks. This is an important basic skill for a future developer.
 `,
   },
   {
-    title: "Formation OpenClassrooms : React",
+    title: "OpenClassrooms Training: React",
     realHours: 12,
     countedHours: 10,
-    type: "Formation en ligne",
+    type: "Online Training",
     icon: "💻",
-    proof: "Certificat et projets React",
+    proof: "Certificate and React projects",
     proofLink: "#",
-    description: "Formation approfondie sur React, incluant les hooks, le state management, et l'écosystème React.",
+    description: "In-depth training on React, including hooks, state management, and the React ecosystem.",
     reflection: `
-**Contexte :**
-L'objectif était d'apprendre à utiliser React, une bibliothèque JavaScript populaire pour construire des interfaces utilisateur dynamiques et modernes pour des applications web.
+**Context:**
+The objective was to learn how to use React, a popular JavaScript library for building dynamic and modern user interfaces for web applications.
 
-**Actions réalisées :**
-J'ai étudié les concepts clés de React : composants, JSX, props, state, et le cycle de vie des composants. La formation abordait également les hooks (comme useState, useEffect), React Router pour la navigation, et des bases sur la gestion d'état.
+**Actions performed:**
+I studied React's key concepts: components, JSX, props, state, and component lifecycle. The training also covered hooks (like useState, useEffect), React Router for navigation, and basics on state management.
 
-**Apport :**
-J'ai acquis les bases pour développer des interfaces utilisateur interactives avec React. Je comprends comment structurer une application en composants réutilisables et gérer les données au sein de l'interface. C'est une compétence demandée pour le développement front-end.
+**Contribution:**
+I acquired the basics to develop interactive user interfaces with React. I understand how to structure an application into reusable components and manage data within the interface. This is a sought-after skill for front-end development.
 `,
   },
   {
-    title: "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)",
+    title: "English Course Abroad (Cape Town, 2 weeks, February 2023)",
     realHours: 40,
     countedHours: 10,
-    type: "Cours intensif à l'étranger",
+    type: "Intensive Course Abroad",
     icon: "🇬🇧",
-    proof: "Attestation de l'école de langue",
+    proof: "Language school certificate",
     proofLink: "#",
-    description: "Cours d'anglais intensif à Cape Town, Afrique du Sud, pendant 2 semaines en février 2023.",
+    description: "Intensive English course in Cape Town, South Africa, for 2 weeks in February 2023.",
     reflection: `
-**Contexte :**
-Ce séjour visait à améliorer mon niveau d'anglais général, en particulier ma fluidité à l'oral, par une immersion dans un environnement anglophone.
+**Context:**
+This stay aimed to improve my general English level, particularly my oral fluency, through immersion in an English-speaking environment.
 
-**Actions réalisées :**
-J'ai suivi des cours d'anglais intensifs en école de langue, axés sur la conversation, la grammaire et la compréhension. J'ai également pratiqué l'anglais au quotidien lors de mon séjour sur place.
+**Actions performed:**
+I took intensive English courses at a language school, focused on conversation, grammar and comprehension. I also practiced English daily during my stay there.
 
-**Apport :**
-Mon aisance à l'oral en anglais s'est améliorée, ainsi que ma compréhension. J'ai gagné en confiance pour communiquer en anglais dans des situations variées. C'est une compétence essentielle dans le monde professionnel, notamment dans le secteur technologique.
+**Contribution:**
+My oral English fluency improved, as well as my comprehension. I gained confidence in communicating in English in various situations. This is an essential skill in the professional world, especially in the technology sector.
 `,
   },
   {
-    title: "Joueur de hockey",
+    title: "Hockey Player",
     realHours: 60,
     countedHours: 10,
-    type: "Sport collectif",
+    type: "Team Sport",
     icon: "🏑",
-    proof: "Photo ou attestation de club",
+    proof: "Photo or club certificate",
     proofLink: "#",
-    description: "Participation régulière à des entraînements et matchs de hockey sur gazon en club.",
+    description: "Regular participation in field hockey training and matches at the club.",
     reflection: `
-**Contexte :**
-La pratique régulière du hockey en club est une activité sportive et sociale.
+**Context:**
+Regular practice of hockey at the club is a sporting and social activity.
 
-**Actions réalisées :**
-Participation aux entraînements hebdomadaires et aux matchs de championnat durant la saison.
+**Actions performed:**
+Participation in weekly training sessions and championship matches during the season.
 
-**Apport :**
-Au-delà de l'aspect physique, le hockey développe l'esprit d'équipe, la discipline et la persévérance. Ce sont des qualités utiles dans un contexte professionnel, notamment pour la collaboration sur des projets.
+**Contribution:**
+Beyond the physical aspect, hockey develops team spirit, discipline and perseverance. These are useful qualities in a professional context, particularly for collaboration on projects.
 `,
   },
   {
-    title: "Conférences en ligne sur l'IA et RGPD",
+    title: "Online Conferences on AI and GDPR",
     realHours: 11,
     countedHours: 10,
-    type: "Webinaires",
+    type: "Webinars",
     icon: "📚", 
-    proof: "Captures d'écran de l'historique",
+    proof: "Screenshots of history",
     proofLink: "#",
-    description: "Participation à 11 webinaires sur des sujets variés liés à l'Intelligence Artificielle et au RGPD, chacun d'une durée approximative d'une heure.",
+    description: "Participation in 11 webinars on various topics related to Artificial Intelligence and GDPR, each lasting approximately one hour.",
     reflection: `
-**Contexte :**
-J'ai assisté à ces webinaires pour me tenir informé des évolutions et des enjeux concernant l'Intelligence Artificielle et le Règlement Général sur la Protection des Données.
+**Context:**
+I attended these webinars to stay informed about developments and issues concerning Artificial Intelligence and the General Data Protection Regulation.
 
-**Actions réalisées :**
-Suivi de 11 présentations en ligne par des experts, couvrant divers aspects de l'IA (applications, éthique) et du RGPD (obligations, droits des utilisateurs).
+**Actions performed:**
+Followed 11 online presentations by experts, covering various aspects of AI (applications, ethics) and GDPR (obligations, user rights).
 
-**Apport :**
-Cela m'a permis d'actualiser mes connaissances sur deux sujets importants du numérique. J'ai une meilleure compréhension des implications de l'IA et des principes clés du RGPD, ce qui est pertinent pour développer des applications respectueuses des utilisateurs et de la réglementation.
+**Contribution:**
+This allowed me to update my knowledge on two important digital topics. I have a better understanding of AI implications and key GDPR principles, which is relevant for developing applications that respect users and regulations.
 `,
   },
 ];
@@ -161,19 +161,19 @@ export default function CompetencesPage() {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       <Navigation />
       <div className="container mx-auto px-4 py-12">
-        <h1 className="text-5xl font-extrabold mb-2 text-center bg-gradient-to-r from-purple-600 via-blue-500 to-emerald-500 bg-clip-text text-transparent">Acquisition de Compétences</h1>
+        <h1 className="text-5xl font-extrabold mb-2 text-center bg-gradient-to-r from-purple-600 via-blue-500 to-emerald-500 bg-clip-text text-transparent">Skills Acquisition</h1>
         <p className="text-xl text-center mb-10 text-gray-700 font-medium">
-          Récapitulatif de mes activités comptabilisées et heures réelles
+          Summary of my recorded activities and actual hours
         </p>
 
-        {/* Tableau récapitulatif */}
+        {/* Summary table */}
         <div className="overflow-x-auto mb-14">
           <table className="min-w-full border border-gray-200 rounded-xl shadow-md bg-white">
             <thead className="bg-gradient-to-r from-blue-100 to-purple-100">
               <tr>
-                <th className="px-4 py-3 text-lg font-semibold">Activité</th>
-                <th className="px-4 py-3 text-lg font-semibold">Heures réelles</th>
-                <th className="px-4 py-3 text-lg font-semibold">Heures comptabilisées</th>
+                <th className="px-4 py-3 text-lg font-semibold">Activity</th>
+                <th className="px-4 py-3 text-lg font-semibold">Actual Hours</th>
+                <th className="px-4 py-3 text-lg font-semibold">Recorded Hours</th>
               </tr>
             </thead>
             <tbody>
@@ -199,12 +199,12 @@ export default function CompetencesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {activities.map((a, i) => {
             let cardId = "";
-            if (a.title === "Montage de deux PC") cardId = "montage-pc";
-            else if (a.title === "Formation OpenClassrooms : Python") cardId = "python";
-            else if (a.title === "Formation OpenClassrooms : React") cardId = "react";
-            else if (a.title === "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)") cardId = "anglais-cape-town";
-            else if (a.title === "Joueur de hockey") cardId = "hockey";
-            else if (a.title === "Conférences en ligne sur l'IA et RGPD") cardId = "conferences-ia-rgpd";
+            if (a.title === "Building Two PCs") cardId = "montage-pc";
+            else if (a.title === "OpenClassrooms Training: Python") cardId = "python";
+            else if (a.title === "OpenClassrooms Training: React") cardId = "react";
+            else if (a.title === "English Course Abroad (Cape Town, 2 weeks, February 2023)") cardId = "anglais-cape-town";
+            else if (a.title === "Hockey Player") cardId = "hockey";
+            else if (a.title === "Online Conferences on AI and GDPR") cardId = "conferences-ia-rgpd";
 
             return (
               <div id={cardId || undefined} key={`activity-wrapper-${i}`}>
@@ -218,27 +218,27 @@ export default function CompetencesPage() {
                   </div>
                   <div className="flex flex-wrap gap-2 mb-2">
                     <span className="px-2 py-0.5 bg-purple-100 text-purple-700 rounded-full text-xs">
-                      Heures réelles : {a.realHours}
+                      Actual hours: {a.realHours}
                     </span>
                     <span className="px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded-full text-xs">
-                      Heures comptabilisées : {a.countedHours}
+                      Recorded hours: {a.countedHours}
                     </span>
                   </div>
                   <div className="mb-4">
-                    <h4 className="font-semibold mb-1 text-gray-800">Description :</h4>
+                    <h4 className="font-semibold mb-1 text-gray-800">Description:</h4>
                     <p className="text-gray-700 text-sm">{a.description}</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1 text-gray-800">Analyse réflexive :</h4>
+                    <h4 className="font-semibold mb-1 text-gray-800">Reflective Analysis:</h4>
                     <div className="bg-gray-50 p-3 rounded-lg max-h-60 overflow-y-auto">
                       <p className="text-gray-700 text-sm whitespace-pre-line">{a.reflection}</p>
                     </div>
                   </div>
                   {/* PC Build Images Section */}
-                  {a.title === "Montage de deux PC" && (
+                  {a.title === "Building Two PCs" && (
                     <div className="mt-4 flex flex-col gap-4">
                       <div>
-                        <h4 className="font-semibold mb-2 text-gray-800">Photos du montage :</h4>
+                        <h4 className="font-semibold mb-2 text-gray-800">Assembly photos:</h4>
                         <div className="grid grid-cols-2 gap-4">
                           {[1, 2, 3, 4].map((num, idx) => (
                             <div 
@@ -251,7 +251,7 @@ export default function CompetencesPage() {
                             >
                               <Image
                                 src={`/images/pc-build-${num}.jpg`}
-                                alt={`Photo montage PC ${num}`}
+                                alt={`PC Assembly ${num}`}
                                 width={300} 
                                 height={200}
                                 className="rounded-lg object-cover border border-gray-200 w-full h-auto"
@@ -262,10 +262,11 @@ export default function CompetencesPage() {
                       </div>
                     </div>
                   )}
-                  {a.title === "Cours d'anglais à l'étranger (Cape Town, 2 semaines, février 2023)" && (
+
+                  {a.title === "English Course Abroad (Cape Town, 2 weeks, February 2023)" && (
                     <div className="mt-4 flex flex-col gap-4">
                       <div>
-                        <h4 className="font-semibold mb-2 text-gray-800">Documents justificatifs :</h4>
+                        <h4 className="font-semibold mb-2 text-gray-800">Supporting documents:</h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           <div 
                             className="cursor-pointer"
@@ -276,7 +277,7 @@ export default function CompetencesPage() {
                           >
                             <Image
                               src="/images/ef-confirmation.png"
-                              alt="Confirmation de réservation EF"
+                              alt="EF booking confirmation"
                               width={300} 
                               height={200}
                               className="rounded-lg object-cover border border-gray-200 w-full h-auto"
@@ -291,7 +292,7 @@ export default function CompetencesPage() {
                           >
                             <Image
                               src="/images/cape-town-brochure.png"
-                              alt="Brochure Le Cap EF"
+                              alt="Cape Town EF brochure"
                               width={300} 
                               height={200}
                               className="rounded-lg object-cover border border-gray-200 w-full h-auto"
@@ -301,10 +302,10 @@ export default function CompetencesPage() {
                       </div>
                     </div>
                   )}
-                  {a.title === "Joueur de hockey" && (
+                  {a.title === "Hockey Player" && (
                     <div className="mt-4 flex flex-col gap-4">
                       <div>
-                        <h4 className="font-semibold mb-2 text-gray-800">Documents justificatifs :</h4>
+                        <h4 className="font-semibold mb-2 text-gray-800">Evidence:</h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                           <div 
                             className="cursor-pointer"
@@ -315,7 +316,7 @@ export default function CompetencesPage() {
                           >
                             <Image
                               src="/images/hockey-invoice.png"
-                              alt="Facture club de hockey"
+                              alt="Hockey club membership invoice"
                               width={300} 
                               height={200}
                               className="rounded-lg object-cover border border-gray-200 w-full h-auto"
@@ -330,7 +331,7 @@ export default function CompetencesPage() {
                           >
                             <Image
                               src="/images/hockey-action-photo.jpg"
-                              alt="Photo action match de hockey"
+                              alt="Hockey action photo"
                               width={300} 
                               height={200}
                               className="rounded-lg object-cover border border-gray-200 w-full h-auto"
@@ -340,85 +341,68 @@ export default function CompetencesPage() {
                       </div>
                     </div>
                   )}
-                  {a.title === "Formation OpenClassrooms : Python" && (
+                  {a.title === "OpenClassrooms Training: Python" && (
                     <div className="mt-4 flex flex-col gap-4">
                       <div>
-                        <h4 className="font-semibold mb-2 text-gray-800">Documents justificatifs :</h4>
-                        <div className="grid grid-cols-2 gap-4">
-                          <div 
-                            className="cursor-pointer"
-                            onClick={() => {
-                              setCurrentImageIndex(8);
-                              setOpenLightbox(true);
-                            }}
-                          >
-                            <Image
-                              src="/images/python-formation-1.png"
-                              alt="Python Formation Image 1"
-                              width={300} height={200}
-                              className="rounded-lg object-cover border border-gray-200 w-full h-auto"
-                            />
-                          </div>
-                          <div 
-                            className="cursor-pointer"
-                            onClick={() => {
-                              setCurrentImageIndex(9);
-                              setOpenLightbox(true);
-                            }}
-                          >
-                            <Image
-                              src="/images/python-formation-2.png"
-                              alt="Python Formation Image 2"
-                              width={300} height={200}
-                              className="rounded-lg object-cover border border-gray-200 w-full h-auto"
-                            />
-                          </div>
+                        <h4 className="font-semibold mb-2 text-gray-800">Screenshots:</h4>
+                        
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                          {[1, 2].map((num, idx) => (
+                            <div 
+                              key={`python-img-${num}`}
+                              className="cursor-pointer"
+                              onClick={() => {
+                                setCurrentImageIndex(8 + idx); 
+                                setOpenLightbox(true);
+                              }}
+                            >
+                              <Image
+                                src={`/images/python-formation-${num}.png`}
+                                alt={`Python Training ${num}`}
+                                width={300} 
+                                height={200}
+                                className="rounded-lg object-cover border border-gray-200 w-full h-auto"
+                              />
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>
                   )}
-                  {a.title === "Formation OpenClassrooms : React" && (
+                  {a.title === "OpenClassrooms Training: React" && (
                     <div className="mt-4 flex flex-col gap-4">
                       <div>
-                        <h4 className="font-semibold mb-2 text-gray-800">Documents justificatifs :</h4>
-                        <div className="grid grid-cols-2 gap-4">
-                          <div 
-                            className="cursor-pointer"
-                            onClick={() => {
-                              setCurrentImageIndex(10);
-                              setOpenLightbox(true);
-                            }}
-                          >
-                            <Image
-                              src="/images/react-formation-1.png"
-                              alt="React Formation Image 1"
-                              width={300} height={200}
-                              className="rounded-lg object-cover border border-gray-200 w-full h-auto"
-                            />
-                          </div>
-                          <div 
-                            className="cursor-pointer"
-                            onClick={() => {
-                              setCurrentImageIndex(11);
-                              setOpenLightbox(true);
-                            }}
-                          >
-                            <Image
-                              src="/images/react-formation-2.png"
-                              alt="React Formation Image 2"
-                              width={300} height={200}
-                              className="rounded-lg object-cover border border-gray-200 w-full h-auto"
-                            />
-                          </div>
+                        <h4 className="font-semibold mb-2 text-gray-800">Screenshots:</h4>
+                        
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                          {[1, 2].map((num, idx) => (
+                            <div 
+                              key={`react-img-${num}`}
+                              className="cursor-pointer"
+                              onClick={() => {
+                                setCurrentImageIndex(10 + idx); 
+                                setOpenLightbox(true);
+                              }}
+                            >
+                              <Image
+                                src={`/images/react-formation-${num}.png`}
+                                alt={`React Training ${num}`}
+                                width={300} 
+                                height={200}
+                                className="rounded-lg object-cover border border-gray-200 w-full h-auto"
+                              />
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>
                   )}
+
                   
-                  {a.title === "Conférences en ligne sur l'IA et RGPD" && (
+                  {a.title === "Online Conferences on AI and GDPR" && (
                     <div className="mt-4 flex flex-col gap-4">
                       <div>
-                        <h4 className="font-semibold mb-2 text-gray-800">Captures d'écran :</h4>
+                        <h4 className="font-semibold mb-2 text-gray-800">Screenshots:</h4>
                         
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                           {[1, 2, 3].map((num, idx) => (
@@ -432,7 +416,7 @@ export default function CompetencesPage() {
                             >
                               <Image
                                 src={`/images/webinar-ia-rgpd-${num}.png`}
-                                alt={`Webinaire IA & RGPD ${num}`}
+                                alt={`AI & GDPR Webinar ${num}`}
                                 width={300} 
                                 height={200}
                                 className="rounded-lg object-cover border border-gray-200 w-full h-auto"

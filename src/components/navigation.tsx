@@ -2,10 +2,10 @@ import Link from "next/link";
 import { MovingBorder } from "./ui/aceternity/moving-border";
 
 const navItems = [
-  { name: "Accueil", path: "/" },
+  { name: "Home", path: "/" },
   { name: "CV", path: "/cv" },
-  { name: "Projet", path: "/projet" },
-  { name: "Compétences", path: "/competences" },
+  { name: "Project", path: "/projet" },
+  { name: "Skills", path: "/competences" },
 ];
 
 export default function Navigation() {
