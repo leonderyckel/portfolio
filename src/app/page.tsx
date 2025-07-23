@@ -40,7 +40,7 @@ export default function Home() {
       duration: "3 months",
       client: "Bitrix IT",
       technologies: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS", "Node.js"],
-      images: ["/images/pc-build-1.jpg", "/images/pc-build-2.jpg"],
+      images: ["/images/ticket-system-1.png", "/images/ticket-system-2.png"],
       links: {
         github: "https://github.com/leonderyckel/ticket-system",
         demo: "https://ticket-demo.vercel.app"
@@ -65,7 +65,7 @@ The main challenge was creating a seamless workflow that could handle the compan
       duration: "6 months (ongoing)",
       client: "Personal Startup Project",
       technologies: ["Next.js", "TypeScript", "AI/ML", "Web Crawling", "PostgreSQL", "Tailwind CSS", "Vercel"],
-      images: ["/images/Capture d'écran 2025-07-23 à 12.04.39.png", "/images/Capture d'écran 2025-07-23 à 12.04.53.png", "/images/Capture d'écran 2025-07-23 à 12.05.08.png"],
+      images: ["/images/findme-screenshot-1.png", "/images/findme-screenshot-2.png", "/images/findme-screenshot-3.png"],
       links: {
         website: "https://findme-taupe.vercel.app/",
         github: "https://github.com/leonderyckel/findme-platform"
