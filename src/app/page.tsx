@@ -65,7 +65,7 @@ The main challenge was creating a seamless workflow that could handle the compan
       duration: "6 months (ongoing)",
       client: "Personal Startup Project",
       technologies: ["Next.js", "TypeScript", "AI/ML", "Web Crawling", "PostgreSQL", "Tailwind CSS", "Vercel"],
-      images: ["/images/react-formation-1.png", "/images/react-formation-2.png"],
+      images: ["/images/Capture d'écran 2025-07-23 à 12.04.39.png", "/images/Capture d'écran 2025-07-23 à 12.04.53.png", "/images/Capture d'écran 2025-07-23 à 12.05.08.png"],
       links: {
         website: "https://findme-taupe.vercel.app/",
         github: "https://github.com/leonderyckel/findme-platform"
