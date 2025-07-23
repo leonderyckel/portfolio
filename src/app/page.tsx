@@ -57,123 +57,40 @@ export default function Home() {
 The main challenge was creating a seamless workflow that could handle the company's diverse client base while maintaining security standards. The system reduced ticket resolution time by 40% and improved client satisfaction significantly.`
     },
     {
-      title: "E-commerce Platform",
-      icon: "🛒",
-      description: "Full-stack online store with payment integration and admin panel",
-      status: "completed" as const,
-      difficulty: "Medium" as const,
-      duration: "2 months",
-      client: "Local Boutique",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Express.js", "CSS3"],
-      images: ["/images/react-formation-1.png", "/images/react-formation-2.png"],
-      links: {
-        website: "https://boutique-example.com",
-        github: "https://github.com/leonderyckel/ecommerce-platform"
-      },
-      notes: `Complete e-commerce solution built for a local fashion boutique. Features include:
-
-• Product catalog with advanced filtering
-• Shopping cart with persistent sessions
-• Secure payment processing via Stripe
-• Order tracking and management
-• Admin dashboard for inventory management
-• Responsive design for mobile shopping
-
-The client reported a 200% increase in online sales within the first month of launch. The platform handles both physical and digital products with automated email confirmations.`
-    },
-    {
-      title: "Restaurant Management App",
-      icon: "📱",
-      description: "Cross-platform mobile app for restaurant operations",
+      title: "FindMe - Vehicle Parts Platform",
+      icon: "🔍",
+      description: "AI-powered platform for finding vehicle parts with community and marketplace",
       status: "in-progress" as const,
       difficulty: "Hard" as const,
-      duration: "4 months (ongoing)",
-      client: "Cape Town Restaurant",
-      technologies: ["React Native", "Firebase", "Redux", "Expo", "TypeScript"],
-      images: ["/images/python-formation-1.png"],
+      duration: "6 months (ongoing)",
+      client: "Personal Startup Project",
+      technologies: ["Next.js", "TypeScript", "AI/ML", "Web Crawling", "PostgreSQL", "Tailwind CSS", "Vercel"],
+      images: ["/images/react-formation-1.png", "/images/react-formation-2.png"],
       links: {
-        github: "https://github.com/leonderyckel/restaurant-app"
+        website: "https://findme-taupe.vercel.app/",
+        github: "https://github.com/leonderyckel/findme-platform"
       },
-      notes: `Currently developing a comprehensive restaurant management solution featuring:
+      notes: `Comprehensive vehicle parts discovery platform featuring three main components:
 
-• Table reservation system with real-time availability
-• Menu management with photo uploads
-• Order processing and kitchen notifications
-• Staff scheduling and payroll integration
-• Customer loyalty program
-• Analytics dashboard for sales tracking
+🤖 **AI Parts Assistant**
+• Expert knowledge base with live web search capabilities
+• Real-time pricing information and part compatibility
+• Intelligent crawling system that learns from automotive websites
+• GPT-4 powered recommendations for parts and installation
 
-Progress: 70% complete. Currently working on the payment integration and testing phase. Expected completion: Next month.`
-    },
-    {
-      title: "Database Optimization Project",
-      icon: "🗄️",
-      description: "Performance improvement for legacy database systems",
-      status: "completed" as const,
-      difficulty: "Medium" as const,
-      duration: "3 weeks",
-      client: "Healthcare Clinic",
-      technologies: ["MySQL", "Python", "SQL", "Redis", "Docker"],
-      images: ["/images/webinar-ia-rgpd-1.png"],
-      links: {},
-      notes: `Optimized a legacy patient management database for a busy clinic. Improvements included:
+🏛️ **Community Forum (Reddit-style)**
+• Ask questions and share tutorials with vehicle enthusiasts
+• User-generated content and peer support system
+• Upvoting system for best answers and solutions
+• Category-based discussions for different vehicle types
 
-• Query optimization reducing load times by 85%
-• Database indexing strategy implementation
-• Caching layer with Redis for frequent queries
-• Data migration to more efficient schema
-• Backup and recovery procedures
+🛒 **Trusted Marketplace**
+• Buy and sell vehicle parts with confidence
+• Verified seller system and buyer protection
+• Real-time inventory tracking and pricing
+• Integration with major automotive suppliers
 
-The clinic can now handle 3x more concurrent users during peak hours. Patient check-in time reduced from 5 minutes to under 1 minute.`
-    },
-    {
-      title: "Personal Blog CMS",
-      icon: "📝",
-      description: "Custom content management system for bloggers",
-      status: "in-progress" as const,
-      difficulty: "Easy" as const,
-      duration: "1 month (ongoing)",
-      client: "Personal Project",
-      technologies: ["Next.js", "Markdown", "Tailwind CSS", "Vercel"],
-      images: [],
-      links: {
-        github: "https://github.com/leonderyckel/blog-cms"
-      },
-      notes: `Building a simple yet powerful CMS for content creators. Features in development:
-
-• Markdown-based content creation
-• SEO optimization tools
-• Social media integration
-• Comment system with moderation
-• Analytics integration
-• Mobile-first responsive design
-
-Progress: 40% complete. Currently working on the admin interface and content editor. This serves as a learning project for exploring new Next.js 14 features.`
-    },
-    {
-      title: "Portfolio Website Redesign",
-      icon: "🎨",
-      description: "Modern responsive website with improved UX/UI",
-      status: "completed" as const,
-      difficulty: "Easy" as const,
-      duration: "2 weeks",
-      client: "Graphic Designer",
-      technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Figma"],
-      images: ["/images/pc-build-3.jpg", "/images/pc-build-4.jpg"],
-      links: {
-        website: "https://designer-portfolio.com",
-        demo: "https://portfolio-demo.netlify.app"
-      },
-      notes: `Complete redesign of a graphic designer's portfolio website focusing on:
-
-• Clean, minimalist design showcasing artwork
-• Smooth animations and micro-interactions
-• Fast loading times with optimized images
-• Contact form with email integration
-• Mobile-responsive layout
-• Gallery with lightbox functionality
-
-The client reported increased client inquiries by 150% and improved user engagement metrics. The site now loads 3x faster than the previous version.`
+Progress: 75% complete. Currently finalizing the AI crawling optimization and marketplace payment integration. The platform aims to revolutionize how people find and purchase vehicle parts by combining AI intelligence with community knowledge.`
     }
   ];
 
