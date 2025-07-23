@@ -4,8 +4,6 @@ import { MovingBorder } from "./ui/aceternity/moving-border";
 const navItems = [
   { name: "Home", path: "/" },
   { name: "CV", path: "/cv" },
-  { name: "Project", path: "/projet" },
-  { name: "Skills", path: "/competences" },
 ];
 
 export default function Navigation() {

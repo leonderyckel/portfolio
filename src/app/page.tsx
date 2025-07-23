@@ -25,13 +25,13 @@ export default function Home() {
     },
   ];
 
-  const skills = [
-    { title: "PC Building", icon: "🛠️", link: "/competences#montage-pc" },
-    { title: "OpenClassrooms Training: Python", icon: "🐍", link: "/competences#python" },
-    { title: "OpenClassrooms Training: React", icon: "📚", link: "/competences#react" },
-    { title: "English Course Abroad (Cape Town, 2 weeks, February 2023)", icon: "🇬🇧", link: "/competences#anglais-cape-town" },
-    { title: "Hockey Player", icon: "🏑", link: "/competences#hockey" },
-    { title: "Online Conferences on AI and GDPR", icon: "📚", link: "/competences#conferences-ia-rgpd" },
+  const projects = [
+    { title: "Web Application for IT Company", icon: "💼", description: "Custom ticket management system with automated calendar and billing" },
+    { title: "E-commerce Website", icon: "🛒", description: "Full-stack online store with payment integration" },
+    { title: "Mobile App Development", icon: "📱", description: "Cross-platform mobile application for small business" },
+    { title: "Database Optimization", icon: "🗄️", description: "Performance improvement for existing database systems" },
+    { title: "Custom CMS Development", icon: "📝", description: "Content management system tailored to client needs" },
+    { title: "Website Redesign", icon: "🎨", description: "Modern responsive website with improved UX/UI" },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           
           <p className="text-lg md:text-xl max-w-3xl mb-10 text-gray-600">
-            Discover my professional journey, my projects, and my reflective analysis of my skills and experiences.
+            Discover my professional journey and the projects I create for my clients. Specialized in web development and custom IT solutions.
           </p>
           
           <div className="flex gap-4">
@@ -55,27 +55,20 @@ export default function Home() {
             >
               View my CV
             </Link>
-            <Link 
-              href="/projet" 
-              className="px-6 py-3 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition-colors"
-            >
-              My Professional Project
-            </Link>
           </div>
         </div>
       </section>
       
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold mb-12 text-center gradient-title">Skills</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center gradient-title">My Projects</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {skills.map((skill, index) => (
-            <Link href={skill.link} key={index}>
-              <Card3D className="h-48 p-6 flex flex-col items-center justify-center text-center rounded-xl border border-gray-200 hover:border-purple-500 transition-all duration-300 hover:scale-105">
-                <div className="text-4xl mb-4">{skill.icon}</div>
-                <h3 className="text-xl font-medium">{skill.title}</h3>
-              </Card3D>
-            </Link>
+          {projects.map((project, index) => (
+            <Card3D key={index} className="h-64 p-6 flex flex-col items-center justify-center text-center rounded-xl border border-gray-200 hover:border-purple-500 transition-all duration-300 hover:scale-105">
+              <div className="text-4xl mb-4">{project.icon}</div>
+              <h3 className="text-xl font-medium mb-2">{project.title}</h3>
+              <p className="text-gray-600 text-sm">{project.description}</p>
+            </Card3D>
           ))}
         </div>
       </section>
